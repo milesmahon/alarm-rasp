@@ -19,7 +19,7 @@ just breaking at a space around 100 chars which is what Dan Fountain script
 does).
 
 SPEECH.SH:
-	Would like to write my own, or at least understand how this one works.
+	Would like to write my own
 	Uses mpg123, explanation of flags for speed up/slow down in comments in script
 	See "NEWS:" for changes needed
 
