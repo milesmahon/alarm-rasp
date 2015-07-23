@@ -22,6 +22,10 @@ SPEECH.SH:
 	Would like to write my own
 	Uses mpg123, explanation of flags for speed up/slow down in comments in script
 	See "NEWS:" for changes needed
+	
+RADIO:
+	Try mpg123 -q -h 10 -d 11 (or whatever) http://radio-web-player.whatever
+	This probably won't work
 
 META:
 	All things work as of 7/21/15 -- news and weather and cron
