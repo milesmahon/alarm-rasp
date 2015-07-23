@@ -1,4 +1,4 @@
-
+#Cron stores the output from running the alarm (for debugging) with eg [33 7 * * * python alarmMaster.py >> alarm.log]
 ---------------------------
 Speech Script by Dan Fountain
 TalkToDanF@gmail.com
