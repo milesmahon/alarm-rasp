@@ -20,9 +20,8 @@ count = int(Config.get('news','numArticles'))
 db=int(Config.get('main','debug')) 
 
 if (db==1):
-	#print count
-	#print localFeed
-	#print Config.sections()
+	print count + " articles"
+	print "from " + localFeed + "\n"
 
 """Code--------------------------------------------"""
 
@@ -31,12 +30,12 @@ news = "Now the news from " + newsTitle + "... "
 for i in range(count):
 	news = news + rss.entries[i]["title"] + ". "
 
-news = news.encode('utf-8')
+news = news.encode('utf-8') #otherwise TTS doesn't understand
 
 if (db==1):
         print news
 
 subprocess.call("./speech.sh \"" + news + "\"", shell=True)
-#calls TTS script from command line
+#calls TTS script with "news" string from command line
 
 
