@@ -18,19 +18,20 @@ if (db==1):
 
 #uses list of all programs listed in alarm.config
 progList = Config.sections()
-progList.pop(0) #except main... no mainGet.py 
+progList.pop(0) #pops "main" because we won't use it here
 
 """Start running progs ---------------------------------------"""
 
 #subprocess.call("./speech.sh Good morning. ")
 
+#all files have name format *respective section*Get.py, eg weatherGet, newsGet...
 for x in progList:
 	try:
 		subprocess.call("python " + x + "Get.py", shell=True)
 	except:
 		raise Exception("Couldn't retrieve " + x)
 
-#alternate: call each program to get their return value ( a string ), parse it here in this file
+#alternate: call each program to get their return value ( could edit to be a string ), parse it here in this file
 #and send each short sentence to speech.sh so it all flows smoothly and stops at all (". ")'s
 
 if (db == 1):
