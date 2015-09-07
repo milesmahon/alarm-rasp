@@ -1,9 +1,5 @@
 To add:
 	Truncation of eg wind speed, temperature(78.33333 >> 78)
-    	Once Weather can speak, put the speaking in a separate file so all 
-speaking can be together eventually
-    	Implement wordwrap and counter in speaking section to fit text into 
-100 char limit (or don't bc speech.sh)
 
 WEATHERGET:
 	Works. 
@@ -16,12 +12,13 @@ NEWS:
 	Will be better if I wrote my own speech.sh, where it breaks at every
 period -- this is way better for stuff like news headlines (rather than
 just breaking at a space around 100 chars which is what Dan Fountain script
-does).
+does). Put the speaking in a separate file so all speaking can be together eventually
 
 SPEECH.SH:
 	Would like to write my own
 	Uses mpg123, explanation of flags for speed up/slow down in comments in script
 	See "NEWS:" for changes needed
+	Would "mpg123 10 -q [whatever] http://translate.google.com/'string'" work?
 	
 RADIO:
 	Try mpg123 -q -h 10 -d 11 (or whatever) http://radio-web-player.whatever
