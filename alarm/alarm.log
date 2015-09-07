@@ -1,16 +1,6 @@
 #Cron stores the output from running the alarm (for debugging) with eg [33 7 * * * python alarmMaster.py >> alarm.log]
----------------------------
-Speech Script by Dan Fountain
-TalkToDanF@gmail.com
----------------------------
-Playing line: 1 of 1
-Temperature is 66.33 degrees. 
-56 percent humidity. 
-Wind speed of 7.78 miles per hour. 
----------------------------
-Speech Script by Dan Fountain
-TalkToDanF@gmail.com
----------------------------
+#for a 7:33 AM alarm (every day) storing in this (alarm.log) file in same directory as alarmMaster.py.
+#Looks like:
 Playing line: 1 of 3
 Playing line: 2 of 3
 Playing line: 3 of 3
