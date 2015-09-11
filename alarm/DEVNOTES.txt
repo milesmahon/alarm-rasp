@@ -31,6 +31,7 @@ play music/radio, send text to phone or something, stocks?? BTC??
 	A webpage hosting could be interesting... but would only be useful if something other than cron triggered the alarm, bc then could edit from webpage
 	Nvm that would be a totally different version if on web
 	Would still be interesting
+	Sync with (eg Google) calendar for events, though I don't use this
 
 CRON:
 	crontab -e will let you edit cron file and schedule jobs
