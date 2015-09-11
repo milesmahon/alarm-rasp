@@ -37,3 +37,7 @@ CRON:
 	crontab -e will let you edit cron file and schedule jobs
 	using >>alarm.log will put everything printed onscreen into log file, otherwise nothing prints.
 	
+	
+updates:
+9/10 implemented the config file toggles for weatherGet for wind, humidity; still need to do precip
+	
