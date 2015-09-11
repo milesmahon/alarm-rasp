@@ -31,6 +31,17 @@ if (int(Config.get('main','debug')) == 1):
 	print temp
 	print humid
 	print wind
+	
+if (int(Config.get('weather','humid')) != 1):
+	humid = ""
+	
+"""if (int(Config.get('weather','precip')) != 1):
+	precip = ""
+need to implement precip above	
+"""
+
+if (int(Config.get('weather','wind')) != 1):
+	wind = ""
 
 weatherWords = "Today, " + temp + humid + wind
 
