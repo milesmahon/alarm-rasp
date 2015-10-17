@@ -3,7 +3,7 @@ To add:
 
 WEATHERGET:
 	Works. 
-	Just has humid, wind speed and temp, but it talks. 
+	Just has humid, wind speed and temp.
 	Would like to make things like city and a toggle for humidity, 
 precipitation etc to be global (thru alarmConfig)
 
@@ -15,7 +15,6 @@ just breaking at a space around 100 chars which is what Dan Fountain script
 does). Put the speaking in a separate file so all speaking can be together eventually
 
 SPEECH.SH:
-	Would like to write my own
 	Uses mpg123, explanation of flags for speed up/slow down in comments in script
 	See "NEWS:" for changes needed
 	Would "mpg123 10 -q [whatever] http://translate.google.com/'string'" work?
